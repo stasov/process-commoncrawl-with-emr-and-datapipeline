@@ -32,7 +32,7 @@ aws dynamodb create-table --region <your-region> --table-name <your-dynamo-table
 Download and edit the following files:    
 emr.py - replace \<your-region\> and \<your-dynamo-table-name\> with the appropriate values    
 boto-cfg.sh - no need to edit  
-data-pipe-line.temp - no need to edit   
+data-pipe-line.template - no need to edit   
 Upload the files to your S3 bucket.    
 
 ##Step 3: Create and activate the Data pipeline
