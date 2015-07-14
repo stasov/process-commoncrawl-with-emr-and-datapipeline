@@ -57,8 +57,7 @@
       "type" : "EmrCluster",
       "terminateAfter" : "55 Minutes",
       "resourceRole": "DataPipelineDefaultResourceRole",
-      "role": "DataPipelineDefaultRole",
-      "bootstrapAction": "s3://#{myBucketName}/boto-cfg.sh"
+      "role": "DataPipelineDefaultRole"
     }
   ],
   "parameters": [
